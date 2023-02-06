@@ -1,0 +1,6 @@
+load res/b.ppm b
+brighten 10 b b-brighter
+vertical-flip b b-vertical
+horizontal-flip b-vertical b-vertical-horizontal
+value-component b b-value-greyscale
+save-ppm res/b-brighter b-brighter
